@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Template!</title>
+    <style>
+      #post_title {
+	  text-align: center;
+      }
+      #post_image {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+	  object-fit: cover;
+	  border: 1px solid #000;
+      }
+      #sequence_links {
+	  text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="post_title">New blog template!</h1>
+    <img id="post_image" src="image.png" alt="Some of my new template :D"></img>
+    <p>Date: 0x34-09-5</p>
+    <p>
+      Today I made some minor improvements to my blogs by creating a more mobile friendly template with sequential blog navigation links. I also added a simple standard format for edits after initial posting. :D
+    </p>
+    <p id="sequence_links">
+      <a href="../34-08-7/page.html" id="first">first</a>
+      <a href="../34-08-7/page.html" id="previous">previous</a>
+      <a id="next">next</a>
+      <a id="last">last</a>
+    </p>
+  </body>
+  
+</html>
