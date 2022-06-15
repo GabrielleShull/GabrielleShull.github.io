@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>Made my Interests Blog</title>
     <style>
+      #sequence_links {
+          allign: center;
+      }
       #violet {
 	  color: #ffffff;
 	  background-color: #8e258e;
@@ -69,6 +72,17 @@
       <li>Black, and <em id="black">#0f0e0f</em> is my favorite shade of it</li>
       <li>Yellow, and my favorite shade is <em id="yellow">#dbe11c</em></li>
     </ol>
-    
+
+    <p>
+      Edit: <br>
+      Date: 0x34-0a-4 <br> <!-- (date edit occurred) -->
+      Added sequential blog navigation links.<!-- edit text-->
+    </p>
+    <p id="sequence_links">
+      <a id="first">first</a>
+      <a id="previous">previous</a>
+      <a id="next" href="../34-0a-4/page.html">next</a>
+      <a id="last" href="../34-0a-4/page.html">last</a>
+    </p>
   </body>
 </html>
