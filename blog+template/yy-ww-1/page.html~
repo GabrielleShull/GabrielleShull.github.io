@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title> <!-- short version of the title -->
+    <link rel="icon" href="../../makers+mark+circ.png">
+    <style>
+      * {
+	  box-sizing: border-box;
+      }
+      #post_title {
+	  text-align: center;
+      }
+      #post_banner {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 90%;
+	  height: 128px;
+	  object-fit: cover;
+	  border: 1px solid #000;
+      }
+      #post_image {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+	  object-fit: cover;
+	  border: 1px solid #000;
+      }
+      #sequence_links {
+	  text-align: center;
+      }
+      /*four image containers per row */
+      .column {
+	  float: left;
+	  width: 25%;
+	  padding: 5px;
+      }
+      .row::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="post_title"></h1> <!-- full title -->
+    <img id="post_banner" src="image.jpg" alt="template banner image"></img>
+    <img id="post_image" src="image.jpg" alt="template image"></img>
+    <p>Date: 0x</p> <!-- yy-ww-d (unix hexadecimal base years/weeks/days) -->
+    <p></p> <!-- Main text (more paragraphs if needed) -->
+    <div class="row"> <!-- Up to four side by side images per row -->
+      <div class="column">
+	<img src="image.jpg" alt="template image" style="width:100%">
+      </div>
+      <div class="column">
+	<img src="image.jpg" alt="template image" style="width:100%">
+      </div>
+      <div class="column">
+	<img src="image.jpg" alt="template image" style="width:100%">
+      </div>
+      <div class="column">
+	<img src="image.jpg" alt="template image" style="width:100%">
+      </div>
+    </div>
+    <p>
+      Edit: <br>
+      Date: 0x <br> <!-- (date edit occurred) -->
+      <!-- edit text-->
+    </p>
+    <p id="sequence_links">
+      <a href="../yy-ww-0/page.html" id="first">first</a>
+      <a href="../yy-ww-0/page.html" id="previous">previous</a>
+      <a id="next">next</a>
+      <a id="last">last</a>
+    </p>
+  </body>
+  
+</html>

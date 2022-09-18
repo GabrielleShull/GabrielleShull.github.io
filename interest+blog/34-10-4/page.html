@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dogtag</title> <!-- short version of the title -->
+    <link rel="icon" href="../../makers+mark+circ.png">
+    <style>
+      * {
+	  box-sizing: border-box;
+      }
+      #post_title {
+	  text-align: center;
+      }
+      #sequence_links {
+	  text-align: center;
+      }
+      .image {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 25%;
+	  object-fit: cover;
+	  border: 1px solid #000;
+      }
+      /*four image containers per row */
+      .column {
+	  float: left;
+	  width: 25%;
+	  padding: 5px;
+      }
+      .row::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="post_title">My first dogtag!</h1> <!-- full title -->
+    <img class="image" src="collar.jpg" alt="the finished dogtag"></img>
+    <p>Date: 0x34-10-4</p> <!-- yy-ww-d (unix hexadecimal base years/weeks/days) -->
+    <p>
+      I made my first dogtag recently completely from scratch! First I created some 2D designs in Inkscape for how I wanted the front and back to look. Then I modeled it in 3D on FreeCAD. Next I printed it on a Qidi Shadow resin printer. And lastly I painted it with some model paint I had on hand! :D <br/>
+      <br/>
+      Here's some of the pictures showing the results of my process. UwU
+    </p> <!-- Main text (more paragraphs if needed) -->
+    <div class="row"> <!-- Up to four side by side images per row -->
+      <div class="column">
+	<img src="tag+design+front.png" alt="template image" style="width:100%">
+      </div>
+      <div class="column">
+	<img src="tag+design+back+censored.jpg" alt="template image" style="width:100%">
+      </div>
+      <div class="column">
+	<img src="model+front.png" alt="template image" style="width:100%">
+      </div>
+      <div class="column">
+	<img src="model+back+censored.jpg" alt="template image" style="width:100%">
+      </div>
+    </div>
+    <p>
+      A little longer ago I also redesigned my maker's mark based on an observation from a friend of mine that my old mark looked a bit like a
+      <a href="https://solarsystem.nasa.gov/resources/754/what-is-a-lagrange-point/"> Lagrange point diagram</a>
+      . I really like how those diagrams look, especially how they look somewhat like bows, so I decided to redesign the mark so the side branches are both at a 60 degree angle to the main branch just like in Lagrange point diagrams. :D
+    </p>
+    <img class="image" src="circ.png" alt="The new maker's mark"></img>
+    <p id="sequence_links">
+      <a href="../34-08-7/page.html" id="first">first</a>
+      <a href="../34-0a-4/page.html" id="previous">previous</a>
+      <a id="next">next</a>
+      <a id="last">last</a>
+    </p>
+  </body>
+  
+</html>
